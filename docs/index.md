@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Somndus Studio Documentation
+title: PinNumber Documents
 ---
 
 <!-- Documentation assets list  -->

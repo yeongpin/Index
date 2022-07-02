@@ -1,6 +1,6 @@
 docs:
 
-- title: Anime Character Creator
+- title: OpenWorldPortalSystem
   url: docs/acc/index.html
   description: Documentation about Anime Character Creator 1.5
   cover: /assets/img/ACC_Default_Cover.png
@@ -27,7 +27,7 @@ docs:
           description: Change log about ACC 1.9.1
       
 
-- title: Anime Fighter Template
+- title: ChapterSelector
   url: docs/aft/index.html
   description: Documentation about Anime Fighter Template 1.0 (Not yet published)
   cover: /assets/img/AFT_Default_Cover.png
