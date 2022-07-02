@@ -1,0 +1,23 @@
+<div class="ss-card ss-card-1 ">
+    <a class="ss-post-link" href="{{ include.item.url | relative_url }}">
+        <div class="ss-img">
+            <p>
+                {% if include.item.cover %}
+                    <img class=" lazyloaded" alt="engine_qs_topic.png" src="{{ include.item.cover }}">
+                {% else %}
+                    <img class=" lazyloaded" alt="engine_qs_topic.png" src="/assets/img/ACC_Default_Cover.png">
+                {% endif %}
+            </p>
+        </div>
+        <div class="ss-subject">
+            <div class="ss-text">{{ include.item.title }}</div>
+        </div>
+        <div class="ss-info">
+            <div class="content">
+                <div class="ss-description">
+                    {{ include.item.description }}
+                </div>
+            </div>
+        </div>
+    </a>
+</div>

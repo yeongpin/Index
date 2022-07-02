@@ -1,0 +1,111 @@
+docs:
+
+- title: Anime Character Creator
+  url: docs/acc/index.html
+  description: Documentation about Anime Character Creator 1.5
+  cover: /assets/img/ACC_Default_Cover.png
+  docs: 
+    - title: Introduction
+      url: docs/acc/index.html
+      description: Introduction of ACC
+      hideInChapter: true
+    - title: Body and Head
+      url: docs/acc/body_and_head.html
+      description: Understand how body and head work
+    - title: From Default ThirdPersonBP
+      url: docs/acc/from_default_third_character_bp.html
+      description: How implement ACC from default ThirdPersonBP
+    - title: How Retarget Animation
+      url: docs/acc/how_retarget_animation.html
+      description: How retarget some Epic Skeleon animations with ACC Character
+    - title: Release Notes
+      url: docs/acc/index.html
+      description: Release notes
+      docs: 
+        - title: ACC 1.9.1
+          url: docs/acc/release_notes/1_9_1/index.html
+          description: Change log about ACC 1.9.1
+      
+
+- title: Anime Fighter Template
+  url: docs/aft/index.html
+  description: Documentation about Anime Fighter Template 1.0 (Not yet published)
+  cover: /assets/img/AFT_Default_Cover.png
+  docs: 
+    - title: Introduction
+      url: docs/aft/index.html
+      description: Introduction of AFT
+      hideInChapter: true
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Getting Started
+      url: docs/aft/getting_started.html
+      description: Before use the asset !
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Global system work
+      url: docs/aft/global_system_work.html
+      description: Understand how the template work
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Fighter Information
+      url: docs/aft/fighter_information.html
+      description: How each fighter character are organized
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: How add a character
+      url: docs/aft/how_add_character.html
+      description: How add a character
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Input Buffer
+      url: docs/aft/input_buffer.html
+      description: How input work
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Fighter Action
+      url: docs/aft/fighter_action.html
+      description: How fighter actions works
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Debug in stage
+      url: docs/aft/debug_stage.html
+      description: Fight Stage Debugging
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: FAQ
+      url: docs/aft/faq.html
+      description: FAQ about Anime Fighter Template
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Release Notes
+      url: docs/aft/index.html
+      description: Release notes
+      cover: /assets/img/AFT_Default_Cover.png
+      docs: 
+        - title: AFT 1.1
+          url: docs/aft/release_notes/1_1/index.html
+          description: Change log about AFT 1.1
+
+- title: Simple Fly Ride
+  url: docs/sfr/index.html
+  description: Documentation about SimpleFly Ride 1.0
+  cover: /assets/img/SFR_Default_Cover.png
+  docs: 
+  - title: Introduction
+    url: docs/sfr/index.html
+    description: Introduction of ACC
+    hideInChapter: true
+  - title:  Use ACC in Simple Fly Ride
+    url: docs/sfr/use_acc_wtih_sfr.html
+    description: How implement Anime Character Creator in Simple Fly Ride System
+    cover: /assets/img/SFR_Default_Cover.png
+
+- title: Anime Character Selector
+  url: docs/acs/index.html
+  description: Documentation about Anime Character Selector 1.0
+  cover: /assets/img/ACS_Default_Cover.png
+  docs: 
+  - title: Introduction
+    url: docs/acs/index.html
+    description: Introduction of ACS
+    hideInChapter: true
+  - title:  Global explain about ACS
+    url: docs/acs/global_explain.html
+    description: How ACS work
+    cover: /assets/img/ACS_Default_Cover.png
+  - title:  Replication usage in ACS
+    url: docs/acs/use_replication.html
+    description: How to use/test replication in ACS
+    cover: /assets/img/ACS_Default_Cover.png

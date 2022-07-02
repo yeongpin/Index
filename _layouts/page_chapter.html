@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- Title -->
+<div class="ss-blog-title">
+  <div class="ss-img"><img class="" src="{{ page.cover_img }}"></div>
+  <div class="ss-info">
+    <div class="ss-page-title">
+      <h1 id="H1TitleId">{{ page.title | escape }}</h1>
+    </div>	
+    <h2>{{ page.description | escape }}</h2>
+  </div>
+</div>
+
+<div class="ss-content">
+  <div class="ss-blog-container">
+    <article>
+
+      <section>
+        {{ content }}
+      </section>
+
+    </article>
+  </div>
+</div>

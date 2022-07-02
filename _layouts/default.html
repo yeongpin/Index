@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <!-- Loader -->
+    {%- include screen_loading.html -%}
+
+    <div id="ss-main" class="be-wrapper be-offcanvas-menu be-fixed-sidebar" style="display: none;">
+      {%- include header.html -%}
+
+      {%- include sidebar.html -%}
+
+      <!-- Breadcrumb -->
+      <div class="ss-breacrumb-wrapper">
+        <section><nav>{% include breadcrumbs.html %}</nav></section>
+      </div>
+      {{ content }}
+
+      {%- include footer.html -%}
+    </div>
+    
+  </body>
+</html>

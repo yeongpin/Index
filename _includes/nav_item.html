@@ -1,0 +1,11 @@
+
+<li class="parent">
+    <a href="{{ include.item.url | relative_url }}"><span>{{ include.item.title }}</span></a>
+    {% if include.item.docs %}
+    <ul class="sub-menu">
+        {% for itemSub in include.item.docs %}
+            {% include nav_item.html item=itemSub %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+</li>

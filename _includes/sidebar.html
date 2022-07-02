@@ -1,0 +1,18 @@
+<div class="be-left-sidebar" id="left_sidebar">
+    <div class="left-sidebar-wrapper">
+       <div class="left-sidebar-spacer">
+          <div class="left-sidebar-scroll">
+             <div class="left-sidebar-content">
+                <ul class="sidebar-elements">
+                   <li class="active"><a href="/"><i class="icon zmdi zmdi-home"></i><span>Home</span></a></li>
+                   
+                   {% for item in site.data.samplelist.docs %}
+                    {% include nav_item.html item=item %}
+                   {% endfor %}
+
+                </ul>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
